@@ -1,0 +1,147 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="./jquery-3.2.1.js"></script>
+    <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+<body>
+<!--write your code here-->
+<!-- Button trigger modal -->
+
+<div class="container-fluid">
+    <form class="form-inline">
+        <h1>统一建模语言理论测试</h1>
+        <table>
+            <tr>
+                <td>考试科目:统一建模语言 </td>
+                <td> 时间：100分钟 </td>
+                <td> 得分：100</td>
+            </tr>
+            <tr>
+                <td>
+                    班级：<input type="text" placeholder="1班">
+                </td>
+                <td>
+                    学号：<input type="text" placeholder="001">
+                </td>
+                <td>
+                    姓名：<input type="text" placeholder="haha">
+                </td>
+            </tr>
+    </table>
+
+        <h2>一、填空题（每空5分，共20分）</h2>
+        <ol>
+            <li>UML的中文全称是：<input type="text" placeholder="统一建模语言"> </li>
+            <li>对象最突出的特征是：<input type="text" placeholder="封装性"><input type="text" placeholder="继承性"> <input type="text" placeholder="多态性"></li>
+        </ol>
+        <h2>二、选择题（每题10分，共20分）</h2>
+        <ol>
+            <li>
+                UML与软件工程到关系是：
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="1">(A)UML就是软件工程
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="1">(B)UML参与到软件工程中软件开发过程到几个阶段
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="1">(C)UML与软件工程无关
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="1">(D)UML是软件工程的一部分
+                    </label>
+                </div>
+            </li>
+            <li>
+                Java语言支持：
+                <div class="radio">
+                    <label>
+                            <input type="radio" name="2">(A)单继承
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                            <input type="radio" name="2">(B)多继承
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="2">(C)单继承和多继承都支持
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="2">(D)单继承和多继承都不支持
+                    </label>
+                </div>
+            </li>
+        </ol>
+        <h2>一、多选题（每题10分，共20分）</h2>
+        <ol>
+            <li>用例到粒度分为以下哪三种：</li>
+            <div class="checkbox">
+                <label><input type="checkbox" name="1">(A)概述级</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="1">(B)需求级</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="1">(C)用户目标级</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="1">(D)子功能级</label>
+            </div>
+            <li>类图有以下哪三部分组成：</li>
+            <div class="checkbox">
+                <label><input type="checkbox" name="2">(A)名称</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="2">(B)属性</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="2">(C)操作</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="2">(D)方法</label>
+            </div>
+        </ol>
+        <h2>四、判断题（每题10分，共20分）</h2>
+        <ol>
+            <li>
+                用例图只是用于和用户交流和沟通到，用于确定需求。
+                <label class="radio-inline">
+                    对<input type="radio" name="3">
+                </label>
+                <label class="radio-inline">
+                    错<input type="radio" name="3">
+                </label>
+            </li>
+            <li>
+                在状态图中，终止状态在一个状态图中允许有任意多个。
+                <label class="radio-inline">
+                    对<input type="radio" name="4">
+                </label>
+                <label class="radio-inline">
+                    错<input type="radio" name="4">
+                </label>
+            </li>
+        </ol>
+        <h2>五、简答题（每题20分，共20分）</h2>
+        <p>1.简述什么是模型以及模型的表现形式？</p>
+        <textarea class="form-control" rows="12"  placeholder="模型是对现实世界到简化和抽象……"></textarea>
+
+    </form>
+</div>
+
+<!-- Modal -->
+<button type="submit">计算分数</button>
+</body>
+</html>
